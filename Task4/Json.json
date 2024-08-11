@@ -1,0 +1,50 @@
+{ 
+ 
+    "Details" : [
+        {   
+            "Id":"001",
+            "name":"santhosh",
+            "age":25,
+            "country":"india",
+            "city":"madurai"
+        },
+
+        {
+            "Id":"002",
+            "name":"GOAT",
+            "age":26,
+            "country":"india",
+            "city":"chennai"
+
+        }
+    ],
+
+    "experience" :[
+        {
+            "title":"System Engineer",
+            "Company": "infy",
+            "Location": "chennai",
+            "date ":"2022 - Present",
+            "description":"The System Engineer,Game Developer,React Developer"
+
+        },
+
+        {
+            "title":"Softerware Developer",
+            "Company": "zoho",
+            "Location": "chennai",
+            "date ":"2022 - Present",
+            "description":"The java developer"
+
+        }
+    ],
+
+    "skills": [
+        "java deveopler",
+        "gama developer",
+        "ethical Hacker",
+        "react deveopler"
+      ]
+
+
+}

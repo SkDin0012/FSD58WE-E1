@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+#coundown {
+    text-align: center;
+    background-image: linear-gradient(35deg,#FF9800,white,green,transparent);
+    font-size: 50px;
+    margin-top: 20%;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    #coundown {
+        font-size: 3rem;
+        margin-top: 50%;
+    }
+}

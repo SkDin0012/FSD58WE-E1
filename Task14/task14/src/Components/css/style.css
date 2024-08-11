@@ -1,0 +1,69 @@
+/* header css */
+.masthead {
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+    background: #007bff;
+  }
+  
+  .masthead .intro-text {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  
+  .masthead .intro-lead-in {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .masthead .intro-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .masthead .btn {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+
+  /* fature css */
+
+  /* src/components/Feature.css */
+.fa-stack {
+    margin-bottom: 20px;
+  }
+  
+  .service-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  /* callactioncss */
+
+  .page-section {
+    padding: 6rem 0;
+  }
+  
+  .page-section.bg-light {
+    background-color: #f8f9fa;
+  }
+
+  /* footer css */
+
+  /* src/components/Footer.css */
+.footer {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer .btn-social {
+    margin: 0 0.5rem;
+  }
+  
+  

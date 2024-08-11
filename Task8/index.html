@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+<body>
+    <div class="calculator border rounded p-3" id="calculator">
+        <input type="text" id="result">
+        <div class="row">
+          <button class="button col-3 btn btn-light" onclick="clearResult()">C</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('%')">%</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('/')">/</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('*')">*</button>
+        </div>
+        <div class="row">
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('7')">7</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('8')">8</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('9')">9</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('-')">-</button>
+        </div>
+        <div class="row">
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('4')">4</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('5')">5</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('6')">6</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('+')">+</button>
+        </div>
+        <div class="row">
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('1')">1</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('2')">2</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('3')">3</button>
+          <button class="button col-3 btn btn-light" onclick="AppendOperator('.')">.</button>     
+        </div>
+        <div class="row">
+            <button class="button col-3 btn btn-light" onclick="memoryStore()">M+</button>
+            <button class="button col-3 btn btn-light" onclick="memoryRecall()">M-</button>
+            <button class="button col-3 btn btn-light" onclick="memoryClear()">MC</button>
+            <button class="button col-3 btn btn-light" onclick="AppendOperator('^')">^</button>
+        </div>
+        <div class="row">
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('0')">0</button>
+          <button class="button col-3 btn btn-light" onclick="AppendNumber('00')">00</button>
+          <button class="button col-6 btn btn-light" rowspan="2" onclick="calculateResult()">=</button>
+        </div>
+        <div id="test-suite" class="calculator">
+            <h2>Test Suite</h2>
+            <button class="btn btn-primary" onclick="runTests()">Run Tests</button>
+            <div id="test-results"></div>
+        </div>
+      </div>
+</body>
+</html>

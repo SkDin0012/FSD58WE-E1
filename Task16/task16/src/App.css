@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #28a745;
+}
+
+.card-deck .card {
+  margin: 10px 0;
+}
+.awards {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.awards-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.award {
+
+  border: 0.01px solid #080808;
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1;
+  max-width: 25%;
+}
+
+.award h3 {
+  margin-top: 0;
+}
+
+.works {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}

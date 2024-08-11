@@ -1,0 +1,20 @@
+Find the title of each film 
+
+select title from movies;
+
+Find the director of each film 
+
+select director from movies;
+
+Find the title and director of each film 
+
+select title,director from movies
+
+Find the title and year of each film
+
+select title,year from movies;
+
+Find all the information about each film
+
+select * form movies;
+
